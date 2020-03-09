@@ -24,13 +24,13 @@ public class SolarEdgeQAAutomation {
 			driver.manage().timeouts().pageLoadTimeout(400, TimeUnit.SECONDS);
 			driver.get("https://www.solaredge.com/contact/qa_automation_test");
 			
-			FindElements.textbox_name(driver).sendKeys("Suman Goyat");
-			FindElements.textbox_emailaddress(driver).sendKeys("sumangoyat@gmail.com");
+			FindElements.textbox_name(driver).sendKeys("Alex van Jaron");
+			FindElements.textbox_emailaddress(driver).sendKeys("alexjaronnew@gmail.com");
 			FindElements.textbox_subj(driver).sendKeys("Computer Applications");
 			FindElements.textbox_message(driver).sendKeys("Message for today");
-			FindElements.textbox_cnaam(driver).sendKeys("NameClient");
-			FindElements.textbox_csurnaam(driver).sendKeys("SurNameClient");
-			FindElements.textbox_compnaam(driver).sendKeys("Name of the Company");
+			FindElements.textbox_cnaam(driver).sendKeys("Sydney New");
+			FindElements.textbox_csurnaam(driver).sendKeys("Van Maarssen");
+			FindElements.textbox_compnaam(driver).sendKeys("ABC Industries Limited");
 			FindElements.textbox_compadd(driver).sendKeys("801 Industrial Building");
 			FindElements.textbox_compdropdown(driver).click();
 			
@@ -42,7 +42,7 @@ public class SolarEdgeQAAutomation {
 			FindElements.textbox_complocal(driver).sendKeys("Chelsea");
 			FindElements.textbox_comppost(driver).sendKeys("10001");
 			FindElements.textbox_calc(driver).sendKeys("4");
-			FindElements.textbox_compphone(driver).sendKeys("37387284");
+			FindElements.textbox_compphone(driver).sendKeys("555-555-1234");
 			FindElements.textbox_stateelement(driver).click();
 			
 			Select statedropdown = new Select(FindElements.textbox_stateelement(driver));
