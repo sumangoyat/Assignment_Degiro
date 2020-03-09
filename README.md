@@ -8,22 +8,24 @@ Web test automation example project using Java, Selenium 3 and Page Object Model
 Test Subject
 https://www.solaredge.com/contact/qa_automation_test
 
-#Libraries and Frameworks
+#Libraries and Frameworks#
 Selenium - Web automation
 
-#Programming Language
+#Programming Language#
 Java version jdk1.8.0_211
 
-#Instructions to run
+#Instructions to run#
 Checkout the project, setup classpath in Eclipse before the test is executed.
 
 Chrome webdriver is included here.
 Currently only chrome webdriver is enabled.
 
-#Important points
+#Important points#
 -To be tested in chrome
 -Have seen sometimes based upon the language settings the dropdown options appear in Dutch language then the name of the Country needs to be updated from "United States" to "Verenigde Staten" in the test file.
 -Object repository is created using POM.
 
+#Regarding the bonus task#
+There are 2 static numbers 2 and 2 whose sum was expected so there is no point to program that so for now 4 has been hardcoded otherwise a method could be written if the numbers were dynamic.
 
 
